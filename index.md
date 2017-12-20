@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"; />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>搜索框1-3</title>
+<style type="text/css">
+	body{background-color:#333;}
+	.bg-div{background-image: url(river.jpg);
+		width:1228px;height:690px;
+		margin:0 auto;
+		position: relative;}
+	.logo{background-image: url(logo.png);
+		width:107px;height:53px;float: left;
+		margin: -4px 18px 0 0}
+	form{float: left; background-color: #fff;padding: 5px;}
+	.search-input-text{border:0;float: left;
+		height: 25px;line-height: 25px;
+		outline: none; width: 350px;}
+	.search-input-button{border:0;float: left;
+		background-image: url(search-button.png);
+		width: 29px;height: 29px;}
+	.search-box{position: absolute; top: 200px; left: 300px;}
+</style>
+</head>
 
-You can use the [editor on GitHub](https://github.com/rolginLuo/bigbigboy.com/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rolginLuo/bigbigboy.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<body>
+	<div class="bg-div">
+		<div class="search-box">
+			<div class="logo"></div>
+			<form>
+				<input type="text" class="search-input-text">
+				<input type="submit" class="search-input-button" value="">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
