@@ -3,7 +3,10 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <title>搜索框1-3</title>
 <style type="text/css">
-	body{background-color:#333;}
+	header,#sidebar{display:none}
+	
+	
+	body{background:#333;}
 	.bg-div{background-image: url(river.jpg);
 		width:1228px;height:690px;
 		margin:0 auto;
@@ -32,5 +35,10 @@
 			</form>
 		</div>
 	</div>
+	
+	<script type="text/javascript">
+	    let mainContent = document.getElementById('main-content');
+	    document.body.appendChild(mainContent);
+	</script>
 </body>
 </html>
