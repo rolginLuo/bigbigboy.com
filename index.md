@@ -4,7 +4,10 @@
 <title>搜索框1-3</title>
 <style type="text/css">
 	header,#sidebar{display:none}
-	
+	#main-content {
+	    float: none;
+	    width: auto;
+	}
 	
 	body{background:#333;}
 	.bg-div{background-image: url(river.jpg);
