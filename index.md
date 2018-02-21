@@ -38,7 +38,7 @@
 			</form>
 		</div>
 	</div>
-	
+	<a href="My.html"></a>	
 	<script type="text/javascript">
 	    let mainContent = document.getElementById('main-content');
 	    document.body.appendChild(mainContent);
